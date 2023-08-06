@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    font-family: Ubuntu, sans-serif;
+    background-color: #e5cbcd;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.topnav {
+    position: sticky;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #d68794;
+}
+
+img {
+    width: 40%;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    background-color: #d68794;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#content h1 {
+    font-size: 5vw;
+    color: #f404dd;
+}
+
+#content .section {
+    font-size: 3em;
+}
+
+#content p {
+    font-size: 1.5em;
+}
+
+
+#content a {
+    width: 5em;
+    font-size: 3em;
+    color: #f404dd;
+    border: #f404dd solid 5px;
+    margin: auto auto 20px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+#content a:hover {
+    color: #c804f4;
+    border: #c804f4 solid 5px;
+}
