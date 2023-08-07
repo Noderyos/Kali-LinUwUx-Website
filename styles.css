@@ -47,21 +47,32 @@ img {
 }
 
 #content p {
+
     font-size: 1.5em;
 }
 
 
 #content a {
-    width: 5em;
-    font-size: 3em;
     color: #f404dd;
-    border: #f404dd solid 5px;
-    margin: auto auto 20px;
     text-decoration: none;
-    transition-duration: 0.5s;
+    transition-duration: 0.2s;
 }
 
 #content a:hover {
     color: #c804f4;
+}
+
+#content #download a {
+    width: 5em;
+    font-size: 3em;
+    border: #f404dd solid 5px;
+    margin: auto auto 20px;
+}
+
+#content #download a:hover {
     border: #c804f4 solid 5px;
+}
+
+#content div {
+    padding-top: 100px;
 }
